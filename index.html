@@ -7,17 +7,52 @@
     <meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
     <meta http-equiv="content-style-type" content="text/css"/>
     <link rel="stylesheet" href="normalize.css" type="text/css"/>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <style type="text/css">
+        body {
+            background-color: whitesmoke;
+        }
+        #contents{
+            margin: 8px;
+        }
+        #profile {
+            margin: 12px;
+        }
+        a {
+            color:#00a;
+        }
+        a:hover {
+            color:#00a;
+        }
+        a:visited {
+            color:#00a;
+        }
+        li {
+            margin-bottom: 3px;
+        }
+        span.small-gray {
+            font-size:80%;
+            color:gray;
+        }
+        .large {
+            font-size:150%;
+        }
+        .small {
+            font-size:60%;
+        }
+        .indent-24 {
+            margin-left:24px;
+        }
+    </style>
     <title>プロフィール</title>
 </head>   
 <body>
 <div id="contents">
     <h1>平井俊夫 (Toshio HIRAI)</h1>
     <div id="profile">
-    <p style="font-size:150%;">株式会社インフィニット</p>
+    <p class="large">株式会社インフィニット</p>
 
     <h3>連絡先</h3>
-    <div style="margin-left:24px;">
+    <div class="indent-24">
         358-0026 入間市小谷田1-15-25<br/>
         Tel: 04-2937-3412<br/>
         e-mail: hirai AT infinite.jp
@@ -27,19 +62,19 @@
     <ul>
         <li>
             PHP, JavaScript, CSS3, HTML5, PostgreSQL, MySQL, CakePHP, CodeIgniter, etc ...<br />
-            <span style="color:gray">2002～</span>
+            <span class="small-gray">2002～</span>
         </li>
         <li>
             Java, Tomcat6(Servlet), BaseX(XMLDB), C#, etc ...<br />
-            <span style="color:gray">2007～</span>
+            <span class="small-gray">2007～</span>
         </li>
         <li>
             Visual Basic, Oracle ...<br />
-            <span style="color:gray">1997～2005</span>
+            <span class="small-gray">1997～2005</span>
         </li>
         <li>
             PL/I, COBOL, ASSEMBLER(IBM System/360, HITAC M-680), C programming language<br />
-            <span style="color:gray">1987～1997</span>
+            <span class="small-gray">1987～1997</span>
         </li>
     </ul>
 
@@ -78,18 +113,10 @@
     <h3>貢献（OSS活動）</h3>
     <ul>
         <li>
-            <a href="https://github.com/siahr/powerbase-xq" target="_blank">powerbase-xq</a><br />
+            <a href="https://github.com/powerbase/pea-bee" target="_blank">pea-bee</a>（実装中...）<br />
             <ul>
                 <li>
-                    An implementation of XQuery endpoint.
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="https://github.com/powerbase/pea-bee" target="_blank">pea-bee</a><br />
-            <ul>
-                <li>
-                    Non-programing Database Application Platform (An Extension of the CodeIgniter).
+                    Non-programing Database Application Platform (An extension of the CodeIgniter).
                 </li>
             </ul>
         </li>
@@ -97,8 +124,8 @@
             <a href="http://basex.org/">BaseX. The XML Database.</a>
             <ul>
                 <li><a href="http://docs.basex.org/wiki/Full-Text:_Japanese" target="_blank">Full-Text: Japanese</a>&nbsp;
-                    <span style="font-size:50%">（<a href="http://files.basex.org/etc/ja-ft.pdf" target="_blank">日本語翻訳版ドキュメント</a>）</span>
-                    <span style="font-size:50%">（<a href="http://basex.org/about-us/news/newsdetails/basex-70-tei-edition/5f7965badfe18a1b3ddfe18a9b76ed79/" target="_blank">リリースノート</a>）</span>
+                    <span class="small">（<a href="http://files.basex.org/etc/ja-ft.pdf" target="_blank">日本語翻訳版ドキュメント</a>）</span>
+                    <span class="small">（<a href="http://basex.org/about-us/news/newsdetails/basex-70-tei-edition/5f7965badfe18a1b3ddfe18a9b76ed79/" target="_blank">リリースノート</a>）</span>
                 </li>
                 <li><a href="https://ja.wikipedia.org/wiki/BaseX" target="_blank">日本版Wikipediaへの寄稿（翻訳）</a></li>
                 <li>日本語翻訳（GUI, メッセージなど）</li>
@@ -109,6 +136,14 @@
             <ul>
                 <li>
                 <a href="https://ja.osdn.net/projects/igo/" target="_blank">Igo - Java形態素解析器</a>のPHPへのポーティング
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="https://github.com/siahr/powerbase-xq" target="_blank">powerbase-xq</a><br />
+            <ul>
+                <li>
+                    An implementation of XQuery endpoint.
                 </li>
             </ul>
         </li>
