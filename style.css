@@ -1,0 +1,21 @@
+body {
+    background-color: whitesmoke;
+}
+#contents{
+    margin: 8px;
+}
+#profile {
+    margin: 12px;
+}
+a {
+    color:#00a;
+}
+a:hover {
+    color:#00a;
+}
+a:visited {
+    color:#00a;
+}
+li {
+    margin-bottom: 3px;
+}
