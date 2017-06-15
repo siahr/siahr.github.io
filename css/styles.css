@@ -6,15 +6,29 @@ body {
     "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
     sans-serif;
 }
+
 a {
-    color:#222;
+    color: #0074d9;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
-a:hover {
-    color:#222;
+
+a:link {
+    color: #0074d9;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
 }
+
 a:visited {
-    color:#222;
+    color: #0074d9;
 }
+
+a:hover {
+    color: #222;
+    -webkit-transition: color .3s ease-in-out;
+    transition: color .3s ease-in-out;
+}
+
 a[target="_blank"]:after {
     margin: 0 3px;
     vertical-align: middle;
@@ -27,31 +41,41 @@ a[target="_blank"]:after {
     -moz-osx-font-smoothing: grayscale;
     content: "\f08e";
 }
-#contents{
-    background-color: whitesmoke;
-    width: 800px;
-    padding:20px;
-    margin: 0 auto;
-    border-radius: 5px;
-    color:#222;
-}
-#profile {
+
+#contents {
     margin: 12px;
 }
-h1{
-    font-size:120%;
-    color:#222;
+
+#profile {
+
+    width: 800px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color: #222;
+
+    background-color: #ffffe7;
+    background-image: linear-gradient(rgba(241, 207, 164, 0.5) .1em, transparent .1em);
+    background-size: 100% 1.5em;
+    line-height: 1.5em;
+}
+
+h1 {
+    font-size: 120%;
+    color: #222;
     padding: 10px 20px 10px 20px;
-    border:1px solid #313131;
+    border: 1px solid #313131;
     border-radius: 5px;
     letter-spacing: 3px;
-    font-weight:bold;
+    font-weight: bold;
 }
+
 h3 {
     position: relative;
     padding: .25em 0 .5em .75em;
     border-left: 6px solid #333;
 }
+
 h3::after {
     position: absolute;
     left: 0;
@@ -61,21 +85,25 @@ h3::after {
     height: 0;
     border-bottom: 1px solid #ccc;
 }
+
 li {
     margin-bottom: 8px;
 }
+
 span.small-gray {
-    font-size:80%;
-    color:gray;
-}
-.small {
-    font-size:60%;
-}
-#contact {
-    margin-left:24px;
+    font-size: 80%;
+    color: gray;
 }
 
-#contact div{
-    margin-bottom:8px;
+.small {
+    font-size: 60%;
+}
+
+#contact {
+    margin-left: 24px;
+}
+
+#contact div {
+    margin-bottom: 8px;
 }
 
