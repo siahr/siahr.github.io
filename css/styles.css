@@ -1,0 +1,81 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body {
+    font-family: "Noto Sans JP",
+    "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic",
+    "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN",
+    sans-serif;
+}
+a {
+    color:#222;
+}
+a:hover {
+    color:#222;
+}
+a:visited {
+    color:#222;
+}
+a[target="_blank"]:after {
+    margin: 0 3px;
+    vertical-align: middle;
+    display: inline-block;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f08e";
+}
+#contents{
+    background-color: whitesmoke;
+    width: 800px;
+    padding:20px;
+    margin: 0 auto;
+    border-radius: 5px;
+    color:#222;
+}
+#profile {
+    margin: 12px;
+}
+h1{
+    font-size:120%;
+    color:#222;
+    padding: 10px 20px 10px 20px;
+    border:1px solid #313131;
+    border-radius: 5px;
+    letter-spacing: 3px;
+    font-weight:bold;
+}
+h3 {
+    position: relative;
+    padding: .25em 0 .5em .75em;
+    border-left: 6px solid #333;
+}
+h3::after {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    content: '';
+    width: 100%;
+    height: 0;
+    border-bottom: 1px solid #ccc;
+}
+li {
+    margin-bottom: 8px;
+}
+span.small-gray {
+    font-size:80%;
+    color:gray;
+}
+.small {
+    font-size:60%;
+}
+#contact {
+    margin-left:24px;
+}
+
+#contact div{
+    margin-bottom:8px;
+}
+
